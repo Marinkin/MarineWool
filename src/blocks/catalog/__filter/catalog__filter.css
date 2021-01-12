@@ -1,0 +1,42 @@
+@import url(_card/catalog__filter_card.css);
+
+.catalog__filter {
+    width: 271px;
+    font-family: "Roboto", Arial, sans-serif;
+    background: #FFFEF6;
+    border: 1px solid #E3E5F4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    max-height: 215px;
+}
+@media screen and (max-width: 800px){
+    .catalog__filter {
+        width: 190px;
+    }
+}
+@media screen and (max-width: 640px){
+    .catalog__filter {
+        /*margin-left: 5%;*/
+    }
+}
+@media screen and (max-width: 520px){
+    .catalog__filter {
+        display: none;
+
+    }
+}
+
+
+
+/*@media screen and (max-width: 480px){*/
+/*    .catalog__filter {*/
+/*        float: right;*/
+/*        margin-right: 7%;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 420px){*/
+/*    .catalog__filter {*/
+/*       display: none;*/
+/*    }*/
+/*}*/

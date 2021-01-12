@@ -1,0 +1,17 @@
+.form__submit-button-basket {
+    padding: 17px 17px 17px 42px;
+    height: 50px;
+    margin-top: 30px;
+    width: 230px;
+}
+
+@media screen and (max-width: 700px){
+    .form__submit-button-basket  {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 500px){
+    .form__submit-button-basket  {
+        margin: 0;
+    }
+}

@@ -1,0 +1,27 @@
+.news__image {
+    position: relative;
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+}
+
+
+
+@media screen and (max-width: 800px){
+    .news__image {
+      width: 200px;
+
+    }
+}
+@media screen and (max-width: 600px){
+    .news__image {
+      margin: 10px;
+
+    }
+}
+@media screen and (max-width: 420px){
+    .news__image {
+        width: 232px;
+
+    }
+}

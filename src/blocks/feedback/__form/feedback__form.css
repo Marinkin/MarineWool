@@ -1,0 +1,18 @@
+.feedback__form {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Roboto", Arial, sans-serif;
+    padding-top: 3%;
+}
+
+@media screen and (max-width: 1024px){
+    .feedback__form {
+        padding-top: 2%;
+
+    }
+}
+@media screen and (max-width: 490px){
+    .feedback__form {
+        justify-content: center;
+    }
+}

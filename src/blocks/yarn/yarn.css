@@ -1,0 +1,29 @@
+@import url(__container/yarn__container.css);
+@import url(__img/yarn__img.css);
+@import url(__title/yarn__title.css);
+@import url(__ellipse/yarn__ellipse.css);
+@import url(__price/yarn__price.css);
+@import url(__titles/yarn__titles.css);
+@import url(_instagram/yarn_instagram.css);
+@import url(__price_card/yarn__price_card.css);
+
+.yarn {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0 0 0 17px;
+}
+@media screen and (max-width: 900px){
+    .yarn {
+        /*justify-content: center;*/
+        margin: 0 0 0 5px;
+
+    }
+}
+@media screen and (max-width: 500px){
+    .yarn {
+        justify-content: center;
+
+
+    }
+}

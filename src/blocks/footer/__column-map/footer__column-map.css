@@ -1,0 +1,29 @@
+.footer__column-map {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 31px;
+}
+
+@media screen and (max-width: 900px){
+    .footer__column-map {
+        font-size: 14px;
+
+    }
+}
+@media screen and (max-width: 600px){
+    .footer__column-map {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 420px){
+    .footer__column-map {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 320px){
+    .footer__column-map {
+        margin-left: 4%;
+
+
+    }
+}

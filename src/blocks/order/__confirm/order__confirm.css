@@ -1,0 +1,24 @@
+.order__confirm {
+    position: absolute;
+    top: 59%;
+    left: 7%;
+}
+@media screen and (max-width: 550px){
+    .order__confirm {
+        top: 60%;
+        left: 31%;
+    }
+}
+@media screen and (max-width: 500px){
+    .order__confirm {
+        top: 40%;
+
+    }
+}
+@media screen and (max-width: 350px){
+    .order__confirm {
+        left: 12%;
+
+    }
+}
+

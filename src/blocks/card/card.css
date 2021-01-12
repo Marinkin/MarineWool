@@ -1,0 +1,35 @@
+@import url(__container/card__container.css);
+@import url(__image/card__image.css);
+@import url(__img/card__img.css);
+@import url(__img-small/card__img-small.css);
+@import url(__price/card__price.css);
+@import url(__price-list/__price-list.css);
+@import url(__price-structure/card__price-structure.css);
+@import url(__price-description/card__price-description.css);
+@import url(__price-accent/card__price-accent.css);
+
+
+.card{
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+@media screen and (max-width: 700px){
+    .card {
+        width: 68%;
+
+    }
+}
+@media screen and (max-width: 520px){
+    .card {
+        width: 70%;
+
+    }
+}
+@media screen and (max-width: 420px){
+    .card {
+        width: 100%;
+
+    }
+}
+
+

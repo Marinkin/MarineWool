@@ -1,0 +1,14 @@
+.color__title {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 44px;
+    text-transform: uppercase;
+    font-family: "Amatic SC", Arial, sans-serif;
+    text-align: left;
+}
+
+@media screen and (max-width: 420px){
+    .color__title {
+        text-align: center;
+    }
+}

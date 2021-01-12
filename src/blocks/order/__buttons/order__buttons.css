@@ -1,0 +1,43 @@
+.order__buttons {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 754px;
+    justify-content: space-between;
+}
+@media screen and (max-width: 750px){
+    .order__buttons {
+        width: 600px;
+
+    }
+}
+@media screen and (max-width: 640px){
+    .order__buttons {
+        width: 550px;
+
+    }
+}
+@media screen and (max-width: 600px){
+    .order__buttons {
+        width: 480px;
+
+    }
+}
+@media screen and (max-width: 550px){
+    .order__buttons {
+       flex-direction: column;
+        width: 430px;
+
+    }
+}
+@media screen and (max-width: 420px){
+    .order__buttons {
+        width: 371px;
+
+    }
+}
+@media screen and (max-width: 350px){
+    .order__buttons {
+        width: 235px;
+
+    }
+}

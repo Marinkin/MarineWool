@@ -1,0 +1,19 @@
+@import url(_card/new__container_card.css);
+@import url(_catalog/new__container_catalog.css);
+
+.new__container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+}
+
+
+
+@media screen and (max-width: 420px){
+    .new__container {
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 17%;
+    }
+}

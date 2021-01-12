@@ -1,0 +1,10 @@
+.yarn__img_instagram {
+    margin: 8px;
+
+}
+
+@media screen and (max-width: 800px){
+    .yarn__img_instagram {
+        margin: 8px;
+    }
+}

@@ -1,0 +1,4 @@
+.popup__registration_enter {
+    background-image: url("../../../../images/signin-all.jpg");
+    background-size: contain;
+}

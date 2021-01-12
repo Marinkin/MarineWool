@@ -1,0 +1,10 @@
+.delivery__price {
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 1000px){
+    .delivery__price {
+        margin-left: 0;
+
+    }
+}

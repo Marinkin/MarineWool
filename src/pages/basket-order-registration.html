@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marine Wool Оформление заказа</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="page">
+<div class="page__catalog section">
+    <header class="header section">
+        <div class="header__container header__container-basket">
+            <div class="header__layout header__layout_catalog">
+                <ul class="header__info">
+                    <li class="header__info_call">
+                        <img class="header__info_phone" src="../images/phone.svg">
+                        <p class="header__info_number">+7 983 395 86 13</p>
+                    </li>
+                    <li class="header__info_city">Барнаул</li>
+                </ul>
+            </div>
+            <nav>
+                <ul class="header__info">
+                    <li class="header__info_enter">
+                        <img class="header__info_padlock" src="../images/padlock-opened.svg">
+                        <a href="#" target="_blank" class="header__link ">Наталья Ф.</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+                <ul class="header__info header__info-basket">
+                    <li class="header__info_shoppingBasket">
+                        <img class="header__info_basket" src="../images/shopping-basket.svg" alt="логотип">
+                        <a class="header__info-active">25</a>
+                    <li>
+                        <a href="#" target="_blank" class="header__link">Корзина</a>
+                        <p class="header__info-total">780 &#8381;</p></li>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__marinewool header__marinewool-basket">
+                <img src="../images/marinewool.png" class="header__logo header__logo-catalog">
+                <h1 class="header__title header__title_catalog">магазин пряжи</h1>
+            </div>
+        </div>
+    </header>
+    <main class="content">
+        <section class="new basket section">
+            <div class="new__container new__container-basket">
+                <p class="basket__arrow"><a href="#" target="_blank" class="new__link"> Главная</a></p>
+                <p class="basket__arrow"><a href="#" target="_blank" class="new__link"> Пряжа</a></p>
+                <p class="basket__arrow"><a href="#" target="_blank" class="new__link"> Страница товаров</a></p>
+            </div>
+        </section>
+        <section class="new order section">
+            <h2 class="new__title order__title">оформление заказа</h2>
+            <div class="order__form">
+                <form action="#" class="form__order">
+                    <fieldset class="form__info">
+                        <label class="form__label">Ваше имя и фамилия
+                            <input name="name_registration" type="text" placeholder="Как вас зовут?" class="form__input-item" required minlength="2" maxlength="40" autocomplete="off">
+                            <span class="form__error form__error_visible"></span>
+                        </label>
+                        <label class="form__label">Контактный телефон
+                            <input name="name_phone" type="text" placeholder="+7 ___-___-__-__" class="form__input-item" required minlength="2" maxlength="40" autocomplete="off">
+                            <span class="form__error form__error_visible"></span>
+                        </label>
+                    </fieldset>
+                    <fieldset class="form__comments ">
+                        <p class="form__comments_item">Ваш адрес  (индекс, город, улица, дом)</p>
+                        <label>
+                            <input name="name" type="text" placeholder="Ваш адрес" class="form__input-order ">
+                        </label>
+                    </fieldset>
+                </form>
+
+                <div class="order__execution">
+                    <div class="order__container">
+                        <h5 class="filter__title">Ваш заказ № 27112</h5>
+                    </div>
+                    <div class="order__box">
+                        <p class="">Товар</p>
+                        <p class="">Кол-во.</p>
+                        <p class="">Цена</p>
+                    </div>
+                    <div class="order__box-product">
+                        <div>
+                            <strong class="">Drops Muskat</strong>
+                            <p class="order__item">76skyblueuni</p>
+                        </div>
+                        <strong class="">1</strong>
+                        <strong class="">170 &#8381;</strong>
+                    </div>
+                    <div class="order__box-product">
+                        <div>
+                            <strong class="">Drops Air</strong>
+                            <p class="order__item">76skyblueuni</p>
+                        </div>
+                        <strong class="">14</strong>
+                        <strong class="">2100 &#8381;</strong>
+                    </div>
+                    <div class="order__box-product">
+                        <div>
+                            <strong class="">Drops Air</strong>
+                            <p class="order__item">76skyblueuni</p>
+                        </div>
+                        <strong class="">8</strong>
+                        <strong class="">1000 &#8381;</strong>
+                    </div>
+                    <p class="order__box-item">Итого: <span class="order__box-item_accent">3270 &#8381;</span></p>
+                    <h3 class="order__name">Федорова Наталья Владимировна</h3>
+                    <p class="order__address">Барнаул, ул. Антона Петрова 218 а, кв 150, 387387</p>
+                    <div class="order__pickup">
+                        <img src="../images/pickup.svg" alt="самовывоз" class="order__pickup-img">
+                        <p class="order__pickup-title">Самовывоз</p>
+                        <p class="order__pickup-item">Самовывоз находится по адресу г.Барнаул, ул.Шумакова 46 ТЦ Лидер (нижний торговый зал)</p>
+                    </div>
+                    <div class="order__pickup">
+                        <img src="../images/cash.svg" alt="наличные" class="order__pickup-img">
+                        <p class="order__pickup-title">Наличными при получении</p>
+                        <p class="order__pickup-item">Данный способ оплаты доступен при доставке курьером по г.Барнаулу.
+                            При самовывозе в шоу руме Marinewool</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="new delivery section">
+            <h2 class="delivery__title">способ доставки</h2>
+            <div class="delivery__container">
+                <ul class="delivery__box form_radio_group-item">
+                <input type="radio" id="radio" name="radio"  value="1" class="custom-radio" checked>
+                    <label for="radio" class="delivery__label">Доставка по городу</label>
+                    <li class="delivery__item"><strong>При сумме заказа более 3000 руб. доставка бесплатно!</strong>
+                       Сумма доставки расчитана по г.Барнаул.
+                        Сумма доставки в отдалённые районы вы можете найти в разделе (Оплата и Доставка)</li>
+                    <li class="basket__title delivery__price">150 &#8381;</li>
+                </ul>
+                <ul class="delivery__box">
+                    <input type="radio" id="radio-two" name="radio"  class="custom-radio" checked>
+                    <label for="radio-two" class="delivery__label">Самовывоз</label>
+                    <li class="delivery__item">Самовывоз находится по адресу
+                        г.Барнаул, ул.Шумакова 46 ТЦ Лидер
+                        (нижний торговый зал)</li>
+                    <li class="basket__title delivery__price">0 &#8381;</li>
+                </ul>
+            </div>
+            <div class="delivery__container">
+                <ul class="delivery__box form_radio_group-item">
+                    <input type="radio" id="radio-three" name="radio"  class="custom-radio" checked>
+                    <label for="radio-three" class="delivery__label">СДЭК</label>
+                    <li class="delivery__item">Расчет стоимости расчитывается индивидуально</li>
+                    <li class="basket__title delivery__price">0 &#8381;</li>
+                </ul>
+                <ul class="delivery__box form_radio_group-item">
+                    <input type="radio" id="radio-four" name="radio"  class="custom-radio" checked>
+                    <label for="radio-four" class="delivery__label">Почта России</label>
+                    <li class="basket__title delivery__price">290 &#8381;</li>
+                </ul>
+                </div>
+        </section>
+        <section class="new payment section">
+            <h2 class="delivery__title payment__title">способ оплаты</h2>
+            <div class="delivery__container delivery__container-payment">
+                <ul class="delivery__box form_radio_group-item">
+                    <input type="radio" id="radio-five" name="radio"  class="custom-radio" checked>
+                    <label for="radio-five" class="delivery__label">Наличными при получении</label>
+                    <li class="delivery__item">Данный способ оплаты доступен при доставке курьером по г.Барнаулу.
+                        При самовывозе в шоуруме Marinewool</li>
+                </ul>
+                <ul class="delivery__box form_radio_group-item">
+                    <input type="radio" id="radio-six" name="radio"  class="custom-radio" checked>
+                    <label for="radio-six" class="delivery__label">Перевод на карту</label>
+                </ul>
+            </div>
+        </section>
+<section class="ordering section">
+    <div class="order__execution-mobile">
+        <div class="order__container">
+            <h5 class="filter__title">Ваш заказ № 27112</h5>
+        </div>
+        <div class="order__box">
+            <p class="">Товар</p>
+            <p class="">Кол-во.</p>
+            <p class="">Цена</p>
+        </div>
+        <div class="order__box-product">
+            <div>
+                <strong class="">Drops Muskat</strong>
+                <p class="order__item">76skyblueuni</p>
+            </div>
+            <strong class="">1</strong>
+            <strong class="">170 &#8381;</strong>
+        </div>
+        <div class="order__box-product">
+            <div>
+                <strong class="">Drops Air</strong>
+                <p class="order__item">76skyblueuni</p>
+            </div>
+            <strong class="">14</strong>
+            <strong class="">2100 &#8381;</strong>
+        </div>
+        <div class="order__box-product">
+            <div>
+                <strong class="">Drops Air</strong>
+                <p class="order__item">76skyblueuni</p>
+            </div>
+            <strong class="">8</strong>
+            <strong class="">1000 &#8381;</strong>
+        </div>
+        <p class="order__box-item">Итого: <span class="order__box-item_accent">3270 &#8381;</span></p>
+        <h3 class="order__name">Федорова Наталья Владимировна</h3>
+        <p class="order__address">Барнаул, ул. Антона Петрова 218 а, кв 150, 387387</p>
+        <div class="order__pickup">
+            <img src="../images/pickup.svg" alt="самовывоз" class="order__pickup-img">
+            <p class="order__pickup-title">Самовывоз</p>
+            <p class="order__pickup-item">Самовывоз находится по адресу г.Барнаул, ул.Шумакова 46 ТЦ Лидер (нижний торговый зал)</p>
+        </div>
+        <div class="order__pickup">
+            <img src="../images/cash.svg" alt="наличные" class="order__pickup-img">
+            <p class="order__pickup-title">Наличными при получении</p>
+            <p class="order__pickup-item">Данный способ оплаты доступен при доставке курьером по г.Барнаулу.
+                При самовывозе в шоу руме Marinewool</p>
+        </div>
+    </div>
+</section>
+        <section class="new comments section">
+                <fieldset class="form__comments">
+                    <p class="form__comments_item">Комментарий</p>
+                    <textarea name="name" type="text" placeholder="Введите текст" class="form__input-textarea form__input-comments"></textarea>
+                </fieldset>
+            <div class="order__buttons">
+            <div class="comments__button">
+            <img src="../images/arrow-point-to-right-order.svg" alt=" " class="comments__arrow">
+                <button type="button" class="form__submit-button form__submit-button-basket">вернуться в корзину</button>
+            </div>
+                <div class="order__total">
+                <img class="order__confirm" src="../images/confirm.svg" alt=" ">
+                <button class="form__submit-button form__submit-button-basket" type="button">оформить заказ</button>
+            </div>
+            </div>
+        </section>
+
+        <section class="mail section">
+            <div class="mail__container">
+                <h4 class="mail__title">Подпишитесь на нашу рассылку</h4>
+                <p class="mail__subtitle">Узнавайте об акциях и новинках первым! Получайте советы и идеи для вдохновения!</p>
+                <form action="#" class="mail__form">
+                    <div class="mail__form-box">
+                        <input name="name" type="text" placeholder="Ваш email" class="mail__form-input">
+                        <button type="submit" class="form__submit-button form__submit-button_mail">Подписаться</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer section">
+        <div class="footer__columns">
+            <nav class="footer__column">
+                <h5 class="footer__column-heading">Каталог</h5>
+                <ul class="footer__column-links">
+                    <li> <a class="footer__column-link" href="#" target="_blank">Пряжа</a> </li>
+                    <li> <a class="footer__column-link" href="#" target="_blank">Спицы и крючки</a> </li>
+                    <li> <a class="footer__column-link" href="#" target="_blank">Аксессуары</a></li>
+                    <li> <a class="footer__column-link" href="#" target="_blank">Товары для вязания</a> </li>
+                    <li> <a class="footer__column-link" href="#" target="_blank">Акции</a></li>
+                </ul>
+            </nav>
+            <nav class="footer__column">
+                <ul class="footer__column-links-nav">
+                    <li> <a class="footer__column-link" href="#" target="_blank">О нас</a> </li>
+                    <li> <a class="footer__column-link" href="#" target="_blank">Новости</a> </li>
+                    <li> <a class="footer__column-link" href="#" target="_blank">Блог</a></li>
+                    <li> <a class="footer__column-link" href="#" target="_blank">Оплата и доставка</a></li>
+                    <li> <a class="footer__column-link" href="#" target="_blank">Контакты</a></li>
+                </ul>
+            </nav>
+            <nav class="footer__column">
+                <ul class="footer__column-links-nav footer__column-links-nav_map">
+                    <li class="footer__column-info">
+                        <img class="footer__social-icon" src="../images/map-pin-silhouette.png" alt=""> Барнаул, улица Шумакова 46
+                        <span class="footer__column-map">(ТЦ Лидер, нижний торговый зал)</span>
+                    </li>
+                    <li class="footer__column-info">
+                        <img class="footer__social-icon" src="../images/call-answer.png" alt="">+7 983 395 86 13
+                    </li>
+                    <li class="footer__column-info">
+                        <img class="footer__social-icon" src="../images/mail-black-envelope-symbol.png" alt=""> shop@marinewool.ru
+                    </li>
+                    <li class="footer__column-info">
+                        <img class="footer__social-icon" src="../images/clock.png" alt=""> Ежедневно с 10.00 - 20.00
+                    <li class="footer__column-info">
+                        <img class="footer__social-icon footer__social-icon_whatsapp" src="../images/whatsapp.png" alt=""> +7 983 395 86 13</li>
+                    <li class="footer__column-info">
+                        <img class="footer__social-icon footer__social-icon_instagram" src="../images/in.png" alt="">
+                        <a href="https://instagram.com/marinewool.ru" target="_blank" class="instagram__marinewool instagram__marinewool-footer">@marinewool</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__info">
+            <img src="../images/marinewool.png" class="footer__logo" alt="">
+            <p class="footer__info-subtitle"> &copy; 2019 Магазин пряжи MarineWool. Все права защищены.
+                <br> Пожалуйста, ознакомьтесь <a href="#" target="_blank" class="form__item_link footer__link"> с офертой</a> и <a href="#" target="_blank" class="form__item_link footer__link"> политикой конфиденциальности</a></p>
+        </div>
+    </footer>
+    </main>
+</div>
+</body>
+</html>

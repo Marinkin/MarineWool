@@ -1,0 +1,14 @@
+.filter__container {
+    width: 270px;
+}
+
+@media screen and (max-width: 800px){
+    .filter__container {
+        width: 190px;
+    }
+}
+@media screen and (max-width: 520px){
+    .filter__container {
+        width: auto;
+    }
+}

@@ -1,0 +1,22 @@
+.filter__button {
+    display: none;
+    background: linear-gradient(90deg, #8A95DA -23.61%, #39E6ED 102.12%);
+    border-radius: 25px;
+    border: none;
+    padding: 5px 20px 5px 9px;
+    height: 40px;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", Arial, sans-serif;
+    color: #FFFEF6;
+    max-width: 300px;
+    margin:1% auto 7%;
+}
+
+@media screen and (max-width: 520px){
+    .filter__button {
+        display: block;
+    }
+}

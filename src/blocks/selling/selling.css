@@ -1,0 +1,20 @@
+@import url(__title/selling__title.css);
+@import url(__price/selling__price.css);
+
+
+.selling {
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    gap: 2%;
+    grid-template-rows: 91%;
+    margin: 0 10px 0 0;
+}
+
+
+@media screen and (max-width: 480px){
+    .selling {
+       display: flex;
+        flex-direction: column;
+    }
+}
+

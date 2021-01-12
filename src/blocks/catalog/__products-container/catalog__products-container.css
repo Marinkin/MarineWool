@@ -1,0 +1,14 @@
+.catalog__products-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 420px){
+    .catalog__products-container {
+
+    }
+}
+@media screen and (max-width: 520px){
+    .catalog__products-container {
+
+    }
+}

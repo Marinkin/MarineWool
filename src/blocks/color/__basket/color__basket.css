@@ -1,0 +1,9 @@
+.color__basket {
+    background-image: url("../../../images/basket-white.jpg");
+    background-size: 57px;
+    width: 57px;
+    height: 35px;
+    border: none;
+    background-position: center;
+    margin-left: 20px;
+}

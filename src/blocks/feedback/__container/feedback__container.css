@@ -1,0 +1,41 @@
+.feedback__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 18% 0 18%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1800px){
+    .feedback__container {
+        padding: 2% 6% 0 18%;
+
+    }
+}
+@media screen and (max-width: 1280px){
+    .feedback__container {
+        padding: 0 3% 0 18%;
+
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .feedback__container {
+        padding: 10px 6% 20px 18%;
+
+    }
+}
+@media screen and (max-width: 900px){
+    .feedback__container {
+        padding: 1% 2% 2% 21%;
+
+    }
+}
+@media screen and (max-width: 490px){
+    .feedback__container {
+        padding: 1% 0 0 0;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
+

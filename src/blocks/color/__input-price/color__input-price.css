@@ -1,0 +1,10 @@
+.color__input-price {
+    width: 48px;
+    border-radius: 5px;
+    outline: none;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #E1E1DD;
+    box-sizing: border-box;
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+.yarn_instagram{
+    padding-bottom: 42px;
+}
+
+@media screen and (max-width: 1024px){
+    .yarn_instagram {
+        padding: 0 4% 1% 4%;
+
+    }
+}

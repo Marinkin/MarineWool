@@ -1,0 +1,33 @@
+@import url(__title/payment__title.css);
+.payment {
+    background-image: url("../../images/border.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /*max-width: 751px;*/
+
+}
+@media screen and (max-width: 1150px){
+    .payment {
+        padding: 0 0 0 4%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .payment {
+        margin: 0 0 0 7%;
+    }
+}
+@media screen and (max-width: 640px){
+    .payment {
+        margin: 0 auto;
+
+    }
+}
+@media screen and (max-width: 600px){
+    .payment {
+        margin: 0;
+        width: 100%;
+        padding: 4% 2% 5% 9%;
+    }
+}

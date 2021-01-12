@@ -1,0 +1,22 @@
+.form__input-order {
+    width: 753px;
+    height: 50px;
+    border-radius: 40px;
+    padding: 1% 2%;
+    font-family: "Roboto", Arial, sans-serif;
+    resize: none;
+    background: #FFFFFF;
+    border: 1px solid #E9E8E1;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 1150px){
+    .form__input-order {
+        width: 87%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .form__input-order {
+        width: 93%;
+    }
+}
+

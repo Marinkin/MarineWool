@@ -1,0 +1,13 @@
+.form__input_enter {
+    width: 425px;
+}
+@media screen and (max-width: 520px) {
+    .form__input_enter {
+      width: 280px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .form__input_enter {
+        width: 210px;
+    }
+}

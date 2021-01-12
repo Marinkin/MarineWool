@@ -1,0 +1,43 @@
+@import url(__arrow/comments__arrow.css);
+@import url(__button/comments__button.css);
+
+.comments {
+    font-family: "Roboto", Arial, sans-serif;
+    padding-bottom: 90px;
+
+
+
+
+
+
+
+
+    padding-top: 28px;
+
+}
+@media screen and (max-width: 1150px){
+    .comments {
+        padding: 0 0 8% 4%;
+
+
+    }
+}
+@media screen and (max-width: 1000px){
+    .comments {
+       margin: 0;
+        width: 811px;
+    }
+}
+@media screen and (max-width: 800px){
+    .comments {
+        width: 699px;
+
+    }
+}
+
+@media screen and (max-width: 750px){
+    .comments {
+        margin: 0 0 0 5%;
+        width: 280px;
+    }
+}

@@ -1,0 +1,50 @@
+.color__cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px){
+    .color__cards {
+      max-width: 830px;
+
+    }
+}
+@media screen and (max-width: 900px){
+    .color__cards {
+        width: 98%;
+
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    .color__cards {
+      width: 400px;
+
+    }
+}
+
+@media screen and (max-width: 520px){
+    .color__cards {
+        justify-content: center;
+
+    }
+}
+
+
+@media screen and (max-width: 420px){
+    .color__cards {
+        width: 323px;
+        justify-content: flex-start;
+
+    }
+}
+@media screen and (max-width: 420px){
+    .color__cards {
+        width: 270px;
+        justify-content: center;
+    }
+}
+
+
+

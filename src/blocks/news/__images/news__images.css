@@ -1,0 +1,19 @@
+.news__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 75px;
+}
+
+@media screen and (max-width: 800px){
+    .news__images {
+        flex-wrap: nowrap;
+
+    }
+}
+@media screen and (max-width: 600px){
+    .news__images {
+        flex-wrap: wrap;
+
+    }
+}

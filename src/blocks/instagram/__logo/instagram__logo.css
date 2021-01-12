@@ -1,0 +1,9 @@
+.instagram__logo {
+    width: 63px;
+}
+
+@media screen and (max-width: 600px){
+    .instagram__logo {
+        width: 40px;
+    }
+}

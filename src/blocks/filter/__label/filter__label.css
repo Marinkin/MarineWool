@@ -1,0 +1,15 @@
+@import url(_accent/filter__label_accent.css);
+
+.filter__label {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 7px 20px 0;
+    position: relative;
+    z-index: 20;
+    display: block;
+    height: 30px;
+    cursor: pointer;
+    line-height: 30px;
+    font-size: 16px;
+    border-bottom: 1px solid #E3E5F4;
+    background-color: #FFFEF6;
+}

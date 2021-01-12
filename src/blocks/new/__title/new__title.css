@@ -1,0 +1,41 @@
+.new__title {
+    font-family: "Amatic SC", Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 1.2;
+    text-align: center;
+    flex-basis: 70%;
+}
+
+@media screen and (max-width: 1024px){
+    .new__title {
+        flex-basis: 62%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .new__title {
+        flex-basis: 46%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .new__title {
+        font-size: 35px;
+        flex-basis: 55%;
+        margin: 0 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .new__title {
+      flex-basis: 254px;
+    }
+}
+@media screen and (max-width: 420px){
+    .new__title {
+        flex-basis: 48px;
+        font-size: 43px;
+    }
+}

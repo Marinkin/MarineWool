@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Amatic SC';
+    src: local('Amatic SC Bold'), local('AmaticSC-Bold'),
+         url('AmaticSC-Bold.woff2') format('woff2'),
+         url('AmaticSC-Bold.woff') format('woff');
+        
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Amatic SC';
+    src: local('Amatic SC Regular'), local('AmaticSC-Regular'),
+         url('AmaticSC-Regular.woff2') format('woff2'),
+         url('AmaticSC-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+    url('Roboto-Bold.woff2') format('woff2'),
+    url('Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('Roboto-Regular.woff2') format('woff2'),
+        url('Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

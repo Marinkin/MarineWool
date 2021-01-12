@@ -1,0 +1,21 @@
+.basket__total {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", Arial, sans-serif;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 500px){
+    .basket__total {
+        flex-direction: column;
+        padding: 0 24%;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 320px){
+    .basket__total {
+        padding: 0 16%;
+    }
+}

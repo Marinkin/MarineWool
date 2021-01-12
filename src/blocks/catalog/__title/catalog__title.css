@@ -1,0 +1,15 @@
+.catalog__title {
+    padding: 0;
+    margin: 0 0 25px 0;
+    flex-basis: 86%;
+}
+@media screen and (max-width: 650px){
+    .catalog__title {
+        flex-basis: 74%;
+    }
+}
+@media screen and (max-width: 520px){
+    .catalog__title {
+        flex-basis: 47%;
+    }
+}

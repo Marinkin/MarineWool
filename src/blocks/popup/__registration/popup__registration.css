@@ -1,0 +1,12 @@
+@import url(_enter/popup__registration_enter.css);
+
+.popup__registration {
+    background-image: url("../../../images/reghead-all.jpg");
+    border-radius: 35px 35px 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 133px;
+}

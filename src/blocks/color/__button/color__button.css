@@ -1,0 +1,9 @@
+.color__button {
+    width: 35px;
+    height: 35px;
+    background-color:rgba(89, 81, 90, 0.2);
+    border-radius: 5px;
+    border: none;
+    color: #FFFEFF;
+    text-align: center;
+}

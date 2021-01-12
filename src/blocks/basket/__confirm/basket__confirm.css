@@ -1,0 +1,12 @@
+.basket__confirm {
+    position: absolute;
+    top: 42%;
+    right: 43%;
+}
+@media screen and (max-width: 500px){
+    .basket__confirm {
+        top: 70%;
+        left: 29%;
+
+    }
+}

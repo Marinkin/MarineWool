@@ -1,0 +1,39 @@
+.footer__column-links-nav {
+    text-decoration: none;
+    line-height: 35px;
+    font-weight: 700;
+    font-size: 20px;
+    list-style-type: none;
+    padding-left: 49%;
+    width: 100%;
+    margin: 0;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+@media screen and (max-width: 900px){
+    .footer__column-links-nav {
+        font-size: 14px;
+        line-height: 28px;
+        padding-left: 39%;
+
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .footer__column-links-nav {
+        font-size: 11px;
+        line-height: 17px;
+        padding-left: 39%;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 420px){
+    .footer__column-links-nav {
+        line-height: 35px;
+        font-weight: 700;
+        font-size: 20px;
+        padding: 0;
+    }
+}
+

@@ -1,0 +1,7 @@
+@media screen and (max-width: 420px) {
+    .form__input-feedback {
+        width: 265px;
+        margin-bottom: 5%;
+        font-size: 15px;
+    }
+}

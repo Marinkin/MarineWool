@@ -1,0 +1,58 @@
+@import url(__button/new__button.css);
+@import url(__container/new__container.css);
+@import url(__title/new__title.css);
+@import url(__link/new__link.css);
+@import url(__container-basket/new__container-basket.css);
+@import url(__container-catalog/new__container_catalog.css);
+@import url(__arrow/new__arrow.css);
+
+
+.new {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 0 2% 0;
+
+}
+
+@media screen and (max-width: 1024px){
+    .new {
+       width: 900px;
+
+    }
+}
+@media screen and (max-width: 800px){
+    .new {
+        width: 560px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .new {
+        width: 389px;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .new {
+        width: 414px;
+    }
+}
+@media screen and (max-width: 420px){
+    .new {
+        width: 320px;
+    }
+}
+@media screen and (max-width: 400px){
+    .new {
+        width: 386px;
+    }
+}
+@media screen and (max-width: 320px){
+    .new {
+        width: 240px;
+    }
+}
+
+
+

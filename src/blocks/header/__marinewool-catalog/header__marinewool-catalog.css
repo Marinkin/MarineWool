@@ -1,0 +1,43 @@
+.header__marinewool-catalog {
+    top: 52%;
+    left: 44%;
+}
+
+@media screen and (max-width: 1024px){
+    .header__marinewool-catalog {
+        top: 41%;
+        left: 39%;
+
+    }
+}
+@media screen and (max-width: 800px){
+    .header__marinewool-catalog {
+        top: 37%;
+        left: 35%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .header__marinewool-catalog {
+        top: 56%;
+        left: 30%;
+    }
+}
+@media screen and (max-width: 520px){
+    .header__marinewool-catalog {
+        left: 26%;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .header__marinewool-catalog {
+        left: 19%;
+        top: 58%;
+    }
+}
+@media screen and (max-width: 320px){
+    .header__marinewool-catalog {
+        left: 11%;
+    }
+}

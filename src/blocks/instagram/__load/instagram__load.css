@@ -1,0 +1,12 @@
+@import url(_active/instagram__load_active.css);
+
+.instagram__load {
+    width: 43px;
+    padding-top: 2.3%;
+    background-image: url("../../../images/load-green.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.instagram__load:hover {
+    background-image: url("../../../images/load-purple.png");
+}
