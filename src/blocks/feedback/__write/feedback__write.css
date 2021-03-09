@@ -5,20 +5,29 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .feedback__write {
-      font-size: 45px;
+        font-size: 45px;
         line-height: 59px;
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     .feedback__write {
         font-size: 30px;
         line-height: 41px;
     }
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
+    .feedback__write {
+        font-size: 55px;
+        line-height: 69px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
     .feedback__write {
         font-size: 27px;
         font-weight: 400;

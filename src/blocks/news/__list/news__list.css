@@ -1,29 +1,15 @@
 .news__list {
-    max-width: 367px;
-    padding-left: 23px;
+    max-width: 362px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1875px) {
     .news__list {
-        width: 227px;
-        padding-left: 13px;
-
+        max-width: 358px;
     }
 }
 
-
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px) {
     .news__list {
-        width: 181px;
-        padding: 0;
-
-    }
-}
-
-@media screen and (max-width: 420px){
-    .news__list {
-        width: 250px;
-
-
+        max-width: 100%;
     }
 }

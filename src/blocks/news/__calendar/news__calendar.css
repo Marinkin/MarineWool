@@ -10,30 +10,9 @@
     background-position: left;
 }
 
-
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 420px) {
     .news__calendar {
-        top: 66%;
-        left: 10%;
-    }
-}
-
-
-@media screen and (max-width: 800px){
-    .news__calendar {
-        top: 62%;
-        left: 5%;
-    }
-}
-@media screen and (max-width: 600px){
-    .news__calendar {
-        top: 65%;
-        left: 5%;
-    }
-}
-@media screen and (max-width: 420px){
-    .news__calendar {
-        top: 73%;
+        top: 68%;
         left: 5%;
     }
 }

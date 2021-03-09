@@ -13,6 +13,7 @@
 @import url(__social-icon-whatsapp/footer__social-icon-whatsapp.css);
 @import url(__info/footer__info.css);
 @import url(__link/footer__link.css);
+@import url(__column-map-mobile/footer__column-map-mobile.css);
 
 
 .footer {
@@ -24,16 +25,18 @@
     padding-bottom: 50px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     .footer {
         padding-top: 10px;
     }
 }
-@media screen and (max-width: 420px){
+
+@media screen and (max-width: 550px) {
     .footer {
         padding: 10px 25px 20px;
     }
 }
+
 
 
 

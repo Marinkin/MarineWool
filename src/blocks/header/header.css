@@ -11,10 +11,25 @@
 @import url(__info-basket/header__info-basket.css);
 @import url(__info-active/header__info-active.css);
 @import url(__info-total/header__info-total.css);
+@import url(__button-link/header__button-link.css);
+@import url(__cart/header__cart.css);
+@import url(__container-catalog/header__container-catalog.css);
 
 .header {
-    padding: 1.5% 18% 1.5%;
+    padding: 1.5% 20.5% 1.5%;
     max-width: 100%;
     font-family: "Roboto", Arial, sans-serif;
     position: relative;
+}
+
+@media screen and (max-width: 800px) {
+    .header {
+        padding: 1.5% 15% 1.5%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .header {
+        padding: 1.5% 20.5% 1.5%;
+    }
 }

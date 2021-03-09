@@ -8,6 +8,10 @@
     max-width: 285px;
     margin: 0 auto;
 }
+.news__img_link:hover{
+    text-decoration: underline;
+    color: #339999;
+}
 
 @media screen and (max-width: 1024px){
     .news__img_link {

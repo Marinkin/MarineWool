@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marine Wool Список товаров</title>
+    <title>Marine Wool</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -25,9 +25,9 @@
                 <ul class="header__info">
                     <li class="header__info_enter">
                         <img class="header__info_padlock" src="../images/padlock.svg">
-                        <a href="#" target="_blank" class="header__link ">Вход</a>
+                        <a class="header__link profile__enter-button">Вход</a>
                         <img class="header__info_ellipse" src="../images/ellipse.svg">
-                        <a href="#" target="_blank" class="header__link">Регистрация</a>
+                        <a class="header__link profile__registration-button">Регистрация</a>
                     </li>
                 </ul>
             </nav>
@@ -35,13 +35,15 @@
                 <ul class="header__info">
                     <li class="header__info_shoppingBasket">
                         <img class="header__info_basket" src="../images/shopping-basket.svg">
-                        <a href="#" target="_blank" class="header__link">Корзина</a>
+                        <a href="basket.html" class="header__link">Корзина</a>
                     </li>
                 </ul>
             </nav>
             <div class="header__marinewool header__marinewool-catalog">
-                <img src="../images/marinewool.png" class="header__logo header__logo-catalog">
-                <h1 class="header__title header__title_catalog">магазин пряжи</h1>
+                <a href="index.html" class="footer__column-link">
+                    <img src="../images/marinewool.png" class="header__logo header__logo-catalog">
+                    <h1 class="header__title header__title_catalog">магазин пряжи</h1>
+                </a>
             </div>
         </div>
     </header>
@@ -84,7 +86,7 @@
         </section>
         <section class="new catalog section">
             <div class="new__container new__container-catalog">
-                <p class="basket__arrow"><a href="#" target="_blank" class="new__link"> Главная</a></p>
+                <p class="basket__arrow"><a href="index.html" class="new__link"> Главная</a></p>
                 <h2 class="new__title catalog__title">пряжа</h2>
             </div>
             <div class="catalog__flex">
@@ -93,7 +95,7 @@
                         <h5 class="filter__title">Фильтр товаров</h5>
                     </div>
                     <div class="filter__container">
-                        <div>
+                        <div class="filter__box">
                             <input id="brands" name="accordion" type="checkbox" class="filter__input">
                             <label for="brands" class="filter__label">Бренды</label>
                             <article class="filter__article">
@@ -362,9 +364,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div>
-
                     <div class="yarn">
                         <button type="button" class="filter__button">Фильтр товаров</button>
                             <div class="catalog__products-container">
@@ -393,36 +392,36 @@
                                     </h3>
                                 </div>
                             </div>
-                        <div class="yarn">
+                        <div class="yarn yarn__box">
                             <figure class="yarn__container">
-                                <a href="#"><img src="../images/new-two.png" class="yarn__img"></a>
-                                <a href="#" class="yarn__title"> Пряжа
+                                <a href="card.html"><img src="../images/new-two.png" class="yarn__img"></a>
+                                <a href="card.html" class="yarn__title"> Пряжа
                                     Drops Baby Merino</a>
                                 <img src="../images/ellipse-green.svg" class="yarn__ellipse" alt="">
                                 <p class="yarn__price"><span class="yarn__price_accent">от</span>140 &#8381;</p>
                             </figure>
                             <figure class="yarn__container">
-                                <a href="#"><img src="../images/new-three.png" class="yarn__img"></a>
-                                <a href="#" class="yarn__title"> Иглы для сшивания трикотажа KnitPro</a>
+                                <a href="card.html"><img src="../images/new-three.png" class="yarn__img"></a>
+                                <a href="card.html" class="yarn__title"> Иглы для сшивания трикотажа KnitPro</a>
                                 <img src="../images/ellipse-green.svg" class="yarn__ellipse" alt="">
                                 <p class="yarn__price"><span class="yarn__price_accent">от</span>170 &#8381;</p>
                             </figure>
                             <figure class="yarn__container">
-                                <a href="#"><img src="../images/new-four.png" class="yarn__img"></a>
-                                <a href="#" class="yarn__title"> Тросик для съемных укороченных спиц</a>
+                                <a href="card.html"><img src="../images/new-four.png" class="yarn__img"></a>
+                                <a href="card.html" class="yarn__title"> Тросик для съемных укороченных спиц</a>
                                 <img src="../images/ellipse-green.svg" class="yarn__ellipse" alt="">
                                 <p class="yarn__price"><span class="yarn__price_accent">от</span>210 &#8381;</p>
                             </figure>
                             <figure class="yarn__container">
-                                <a href="#"><img src="../images/new-one.png" class="yarn__img"></a>
-                                <a href="#" class="yarn__title"> Пряжа
+                                <a href="card.html"><img src="../images/new-one.png" class="yarn__img"></a>
+                                <a href="card.html" class="yarn__title"> Пряжа
                                     Drops Paris</a>
                                 <img src="../images/ellipse-green.svg" class="yarn__ellipse" alt="">
                                 <p class="yarn__price"><span class="yarn__price_accent">от</span>114 &#8381;</p>
                             </figure>
                             <figure class="yarn__container">
-                                <a href="#"><img src="../images/news-three.jpg" class="yarn__img"></a>
-                                <a href="#" class="yarn__title"> Пряжа
+                                <a href="card.html"><img src="../images/news-three.jpg" class="yarn__img"></a>
+                                <a href="card.html" class="yarn__title"> Пряжа
                                     Drops Air</a>
                                 <img src="../images/ellipse-green.svg" class="yarn__ellipse" alt="">
                                 <p class="yarn__price"><span class="yarn__price_accent">от</span>170 &#8381;</p>
@@ -430,37 +429,39 @@
                         </div>
                     </div>
                 </div>
-                    </div>
         </section>
         <section class="new promotional section">
             <div class="new__container">
                 <h2 class="new__title">Акционные товары</h2>
+                <button type="button" class="new__button">
+                <a class="header__button-link">все товары
                 <img src="../images/arrow-point-to-right.svg" class="new__arrow">
-                <button type="button" class="new__button">все товары </button>
+                </a>
+                </button>
             </div>
                         <div class="yarn">
-                            <figure class="yarn__container">
+                            <figure class="promotional__container">
                                 <a href="#"><img src="../images/promotional-one.jpg" class="yarn__img"></a>
                                 <a class="yarn__title" href="#"> Пряжа Drops Baby Merino</a>
                                 <img src="../images/ellipse-green.svg" class="yarn__ellipse" alt="">
                                 <p class="promotional__price"> от 170 &#8381;</p>
                                 <p class="yarn__price"><span class="yarn__price_accent">от</span>156 &#8381;</p>
                             </figure>
-                            <figure class="yarn__container">
+                            <figure class="promotional__container">
                                 <a href="#"><img src="../images/promotional-two.jpg" class="yarn__img"></a>
                                 <a class="yarn__title"href="#"> Иглы для сшивания трикотажа KnitPro</a>
                                 <img src="../images/ellipse-green.svg" class="yarn__ellipse" alt="">
                                 <p class="promotional__price"> от 180 &#8381;</p>
                                 <p class="yarn__price"><span class="yarn__price_accent">от</span>170 &#8381;</p>
                             </figure>
-                            <figure class="yarn__container">
+                            <figure class="promotional__container">
                                 <a href="#"><img src="../images/promotional-three.jpg" class="yarn__img"></a>
                                 <a class="yarn__title"href="#"> Тросик для съемных укороченных спиц</a>
                                 <img src="../images/ellipse-green.svg" class="yarn__ellipse" alt="">
                                 <p class="promotional__price"> от 180 &#8381;</p>
                                 <p class="yarn__price"><span class="yarn__price_accent">от</span>165 &#8381;</p>
                             </figure>
-                            <figure class="yarn__container">
+                            <figure class="promotional__container">
                                 <a href="#"><img src="../images/promotional-four.jpg" class="yarn__img"></a>
                                 <a class="yarn__title"href="#"> Пряжа Drops Paris</a>
                                 <img src="../images/ellipse-green.svg" class="yarn__ellipse" alt="">
@@ -533,16 +534,16 @@
         </div>
     </footer>
 </div>
-<div class="popup">
+<div class="popup popup_type-filter">
     <div class="popup__container popup__container-filter">
         <button type="button" class="popup__closed-icon"></button>
         <div class="popup__filter">
             <h5 class="popup__title">Фильтр товаров</h5>
         </div>
         <div class="filter__container">
-            <div>
+            <div class="filter__box">
                 <input id="brands-popup" name="accordion" type="checkbox" class="filter__input">
-                <label for="brands-popup" class="filter__label">Бренды</label>
+                <label for="brands-popup" class="filter__label" open >Бренды</label>
                 <article class="filter__article">
                     <menu class="filter__menu">
                         <li class="filter__list ">
@@ -811,6 +812,6 @@
 
 </div>
 </div>
-
+<script src="script.js"></script>
 </body>
 </html>

@@ -9,7 +9,7 @@
 <body class="page">
 <div class="page__catalog section">
     <header class="header section">
-        <div class="header__container header__container-basket">
+        <div class="header__container header__container-catalog">
             <div class="header__layout header__layout_catalog">
                 <ul class="header__info">
                     <li class="header__info_call">
@@ -33,23 +33,25 @@
                         <img class="header__info_basket" src="../images/shopping-basket.svg" alt="логотип">
                         <a class="header__info-active">25</a>
                     <li>
-                        <a href="#" target="_blank" class="header__link">Корзина</a>
+                    <a href="basket.html" class="header__link">Корзина</a>
                         <p class="header__info-total">780 &#8381;</p></li>
                     </li>
                 </ul>
             </nav>
-            <div class="header__marinewool header__marinewool-basket">
-                <img src="../images/marinewool.png" class="header__logo header__logo-catalog">
-                <h1 class="header__title header__title_catalog">магазин пряжи</h1>
+            <div class="header__marinewool header__marinewool-catalog">
+                <a href="index.html" class="footer__column-link">
+                    <img src="../images/marinewool.png" class="header__logo header__logo-catalog">
+                    <h1 class="header__title header__title_catalog">магазин пряжи</h1>
+                </a>
             </div>
         </div>
     </header>
     <main class="content">
         <section class="new basket section">
             <div class="new__container new__container-basket">
-                <p class="basket__arrow"><a href="#" target="_blank" class="new__link"> Главная</a></p>
-                <p class="basket__arrow"><a href="#" target="_blank" class="new__link"> Пряжа</a></p>
-                <p class="basket__arrow"><a href="#" target="_blank" class="new__link"> Страница товаров</a></p>
+                <p class="basket__arrow"><a href="index.html"  class="new__link"> Главная</a></p>
+                <p class="basket__arrow"><a href="catalog.html"  class="new__link"> Пряжа</a></p>
+                <p class="basket__arrow"><a href="card.html"  class="new__link"> Страница товаров</a></p>
             </div>
         </section>
         <section class="new order section">
@@ -157,6 +159,7 @@
                     <li class="basket__title delivery__price">290 &#8381;</li>
                 </ul>
                 </div>
+
         </section>
         <section class="new payment section">
             <h2 class="delivery__title payment__title">способ оплаты</h2>
@@ -174,7 +177,7 @@
             </div>
         </section>
 <section class="ordering section">
-    <div class="order__execution-mobile">
+        <div class="order__execution-mobile">
         <div class="order__container">
             <h5 class="filter__title">Ваш заказ № 27112</h5>
         </div>
@@ -224,21 +227,19 @@
     </div>
 </section>
         <section class="new comments section">
-                <fieldset class="form__comments">
-                    <p class="form__comments_item">Комментарий</p>
-                    <textarea name="name" type="text" placeholder="Введите текст" class="form__input-textarea form__input-comments"></textarea>
-                </fieldset>
-            <div class="order__buttons">
+        <fieldset class="form__comments">
+            <p class="form__comments_item">Комментарий</p>
+            <textarea name="name" type="text" placeholder="Введите текст" class="form__input-textarea form__input-comments"></textarea>
+        </fieldset>
+        <div class="order__buttons">
             <div class="comments__button">
-            <img src="../images/arrow-point-to-right-order.svg" alt=" " class="comments__arrow">
-                <button type="button" class="form__submit-button form__submit-button-basket">вернуться в корзину</button>
+                <button type="button" class="form__submit-button form__submit-button-basket"> <img src="../images/arrow-point-to-right-order.svg" alt=" " class="comments__arrow">вернуться в корзину</button>
             </div>
-                <div class="order__total">
-                <img class="order__confirm" src="../images/confirm.svg" alt=" ">
-                <button class="form__submit-button form__submit-button-basket" type="button">оформить заказ</button>
+            <div class="order__total">
+                <button class="form__submit-button form__submit-button-basket order_open-button" type="button"><img class="order__confirm" src="../images/confirm.svg" alt=" ">оформить заказ</button>
             </div>
-            </div>
-        </section>
+        </div>
+    </section>
 
         <section class="mail section">
             <div class="mail__container">
@@ -305,5 +306,6 @@
     </footer>
     </main>
 </div>
+<script src="script.js"></script>
 </body>
 </html>

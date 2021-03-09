@@ -1,10 +1,9 @@
 .footer__logo {
-    width:  234px;
+    width: 234px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .footer__logo {
-        width:  134px;
-
+        width: 134px;
     }
 }

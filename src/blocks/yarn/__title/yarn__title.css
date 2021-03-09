@@ -5,16 +5,17 @@
     text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-height: 52px;
-    white-space: pre-line;
+    height: 52px;
     text-decoration: none;
     color: #59515A;
     margin-top: 20px;
+
 }
 .yarn__title:hover {
     text-decoration: underline;
     color: #339999;
 }
+
 @media screen and (max-width: 1024px){
     .yarn__title {
         font-size: 17px;
@@ -23,19 +24,19 @@
     }
 }
 
+
+
+
 @media screen and (max-width: 600px){
     .yarn__title {
-        font-size: 11px;
-        line-height: 11px;
-    }
-}
-@media screen and (max-width: 480px){
-    .yarn__title {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 23px;
-        margin: 5px 0;
+        font-weight: 700;
     }
 }
+
+
+
 @media screen and (max-width: 420px){
     .yarn__title {
         font-size: 19px;

@@ -1,13 +1,14 @@
-.footer__social-icon-instagram{
+.footer__social-icon-instagram {
     width: 18px;
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
     .footer__social-icon-instagram {
         width: 12px;
-
     }
 }
-@media screen and (max-width: 420px){
+
+@media screen and (max-width: 420px) {
     .footer__social-icon-instagram {
         width: 18px;
     }

@@ -4,8 +4,5 @@
 }
 .footer__column-link:hover {
     color: #339999;
-}
-
-.footer__column-link:hover {
     transition: .5s ease-in-out;
 }

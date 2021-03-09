@@ -4,31 +4,30 @@
     line-height: 38px;
     margin: 0;
 }
-@media screen and (max-width: 1024px){
+
+@media screen and (max-width: 1024px) {
     .feedback__questions {
         font-size: 20px;
         line-height: 28px;
-
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     .feedback__questions {
         font-size: 10px;
         line-height: 18px;
-
     }
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
     .feedback__questions {
-        font-size: 17px;
-        font-weight: 400;
-
+        font-size: 30px;
+        line-height: 38px;
     }
 }
-@media screen and (max-width: 480px){
+
+@media screen and (max-width: 480px) {
     .feedback__questions {
         font-size: 23px;
-
     }
 }

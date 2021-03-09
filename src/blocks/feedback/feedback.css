@@ -5,8 +5,6 @@
 @import url(__contact/feedback__contact.css);
 @import url(__form/feedback__form.css);
 
-
-
 .feedback {
     background-image: url("../../images/mail.png");
     background-repeat: no-repeat;
@@ -14,28 +12,22 @@
     object-fit: contain;
     box-sizing: border-box;
     padding-bottom: 52px;
-
-
-
 }
 
 
-
-
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .feedback {
-      padding: 0;
-
+        padding: 0;
     }
 }
 
-@media screen and (max-width: 490px){
+@media screen and (max-width: 600px) {
     .feedback {
-        padding-bottom: 2%;
         z-index: 10;
         position: relative;
-
+        background-size: cover;
     }
+
     .feedback:before {
         content: '';
         display: block;
@@ -49,5 +41,11 @@
         z-index: -10;
         background-color: black;
         opacity: 0.2;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .feedback {
+        padding-bottom: 2%;
     }
 }

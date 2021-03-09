@@ -4,17 +4,18 @@
 @import url(_link/news__img_link.css);
 
 .news__img {
-    width: 367px;
+    width: 362px;
     border-radius: 10px;
     margin-bottom: 20px;
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
     object-fit: cover;
-    height: 367px;
+    height: 362px;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .news__img:before {
     content: '';
     display: block;
@@ -30,31 +31,32 @@
     background: linear-gradient(0deg, #000000 -4.89%, rgba(0, 0, 0, 0) 25.35%);
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1030px) {
     .news__img {
-        width: 220px;
-        height: 220px;
-        margin: 0 0 20px 0;
-
+        width: 298px;
+        height: 297px;
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 740px) {
     .news__img {
-        width: 180px;
-        height: 180px;
+        width: 258px;
+        height: 258px;
+    }
+}
 
+@media screen and (max-width: 600px) {
+    .news__img {
+        width: 381px;
+        height: 381px;
     }
 }
-@media screen and (max-width: 600px){
+
+
+@media screen and (max-width: 420px) {
     .news__img {
-        margin: 0 0 5px 0;
-    }
-}
-@media screen and (max-width: 420px){
-    .news__img {
-        width: 247px;
-        height: 247px;
+        width: 268px;
+        height: 268px;
     }
 }
 

@@ -6,13 +6,13 @@
     margin: 0 0 9px 0;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
     .footer__column-heading {
         font-size: 15px;
     }
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 420px) {
     .footer__column-heading {
         display: none;
     }

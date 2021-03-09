@@ -11,17 +11,12 @@
     background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     .filter__closed-icon {
         top: 9px;
     }
 }
-/*@media screen and (max-width: 520px){*/
-/*    .filter__closed-icon {*/
-/*        top: 18%;*/
-/*        right: 12%;*/
-/*    }*/
-/*}*/
+
 
 
 

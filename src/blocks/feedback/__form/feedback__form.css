@@ -5,14 +5,21 @@
     padding-top: 3%;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .feedback__form {
         padding-top: 2%;
-
     }
 }
-@media screen and (max-width: 490px){
+
+@media screen and (max-width: 600px) {
     .feedback__form {
+        padding-top: 5%;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .feedback__form {
+        padding-top: 2%;
     }
 }

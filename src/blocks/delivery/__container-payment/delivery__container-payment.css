@@ -2,15 +2,15 @@
     padding-top: 0;
     padding-bottom: 28px;
 }
-@media screen and (max-width: 800px){
+
+@media screen and (max-width: 800px) {
     .delivery__container-payment {
         flex-direction: inherit;
-
     }
 }
-@media screen and (max-width: 550px){
+
+@media screen and (max-width: 550px) {
     .delivery__container-payment {
         flex-direction: column;
-
     }
 }

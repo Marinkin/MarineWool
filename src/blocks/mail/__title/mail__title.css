@@ -6,27 +6,27 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .mail__title {
         font-size: 45px;
 
     }
 }
-@media screen and (max-width: 800px){
+
+@media screen and (max-width: 800px) {
     .mail__title {
         font-size: 35px;
         line-height: 52px;
         margin: 10px 0 0 0;
-
     }
 }
-@media screen and (max-width: 480px){
+
+@media screen and (max-width: 480px) {
     .mail__title {
         font-size: 25px;
         line-height: 27px;
         margin: 10px 0 0 0;
         font-weight: 400;
-        text-align: right;
-
+        text-align: center;
     }
 }

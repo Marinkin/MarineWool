@@ -1,5 +1,3 @@
-@import url(_instagram/yarn__img_instagram.css);
-
 .yarn__img {
     width: 100%;
     border-radius: 10px;
@@ -30,11 +28,8 @@
 @media screen and (max-width: 600px){
     .yarn__img {
         height: 96%;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .yarn__img {
         width: 100%;
     }
 }
+
+

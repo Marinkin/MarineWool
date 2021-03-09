@@ -8,15 +8,54 @@
     background: #FFFFFF;
     border: 1px solid #E9E8E1;
     box-sizing: border-box;
+    outline: none;
 }
-@media screen and (max-width: 1150px){
-    .form__input-order {
-        width: 87%;
-    }
+
+.form__input-order:focus {
+    outline: none;
+    border: 1px solid #BFE9F3;
 }
-@media screen and (max-width: 1000px){
+
+
+@media screen and (max-width: 1150px) {
     .form__input-order {
         width: 93%;
+    }
+}
+
+@media screen and (max-width: 1116px) {
+    .form__input-order {
+        width: 93%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .form__input-order {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .form__input-order {
+        width: 97%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form__input-order {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .form__input-order {
+        width: 96%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .form__input-order {
+        width: 95%;
     }
 }
 

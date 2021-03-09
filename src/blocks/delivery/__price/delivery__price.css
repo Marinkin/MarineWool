@@ -2,9 +2,14 @@
     margin-left: 25px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
     .delivery__price {
         margin-left: 0;
+    }
+}
 
+@media screen and (max-width: 480px) {
+    .delivery__price {
+        text-align: inherit;
     }
 }

@@ -1,7 +1,6 @@
 @import url(_active/filter__list_active.css);
 @import url(_country/filter__list_country.css);
 
-
 .filter__list {
     font-size: 16px;
     font-weight: 400;
@@ -23,4 +22,3 @@
         font-size: 17px;
     }
 }
-

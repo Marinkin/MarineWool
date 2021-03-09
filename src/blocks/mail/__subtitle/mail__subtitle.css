@@ -8,24 +8,32 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .mail__subtitle {
         font-size: 16px;
-
     }
 }
-@media screen and (max-width: 800px){
+
+@media screen and (max-width: 800px) {
     .mail__subtitle {
         font-size: 10px;
-
     }
 }
-@media screen and (max-width: 480px){
+
+@media screen and (max-width: 600px) {
+    .mail__subtitle {
+        text-align: center;
+        font-size: 17px;
+        width: 58%;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .mail__subtitle {
         font-size: 12px;
         font-weight: 400;
         text-align: center;
-
+        width: auto;
     }
 }
 

@@ -16,12 +16,11 @@
 @import url(__total/basket__total.css);
 @import url(__title/basket__title.css);
 @import url(__confirm/basket__confirm.css);
+@import url(__description-link/basket__description-link.css);
+@import url(__delete-mobile/basket__delete-mobile.css);
+@import url(__container-mobile/basket__container-mobile.css);
+@import url(__title-mobile/basket__title-mobile.css);
 
-.basket{
+.basket {
     padding: 0;
 }
-/*@media screen and (max-width: 900px){*/
-/*    .basket {*/
-/*       width: 811px;*/
-/*    }*/
-/*}*/

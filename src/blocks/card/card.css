@@ -7,29 +7,29 @@
 @import url(__price-structure/card__price-structure.css);
 @import url(__price-description/card__price-description.css);
 @import url(__price-accent/card__price-accent.css);
+@import url(__img-link/card__img-link.css);
+@import url(__title/card__title.css);
+@import url(__description/card__description.css);
 
 
-.card{
+.card {
     font-family: "Roboto", Arial, sans-serif;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 420px) {
     .card {
-        width: 68%;
-
+        width: 79%;
     }
 }
-@media screen and (max-width: 520px){
-    .card {
-        width: 70%;
 
-    }
-}
-@media screen and (max-width: 420px){
+@media screen and (max-width: 320px) {
     .card {
         width: 100%;
 
     }
 }
+
+
+
 
 

@@ -6,41 +6,36 @@
     padding: 1% 2%;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     .form__input-comments {
         width: 670px;
-
     }
 }
-@media screen and (max-width: 750px){
+
+@media screen and (max-width: 750px) {
     .form__input-comments {
-        width: 620px;
+        width: 100%;
         font-size: 15px;
 
     }
 }
-@media screen and (max-width: 640px){
-    .form__input-comments {
-        width: 540px;
 
-
-    }
-}
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .form__input-comments {
-        width: 493px;
+        width: 92%;
         margin: 0 auto;
     }
 }
-@media screen and (max-width: 550px){
-    .form__input-comments {
-        width: 113%;
 
+@media screen and (max-width: 420px) {
+    .form__input-comments {
+        width: 98%;
+        margin: 0;
     }
 }
-@media screen and (max-width: 480px){
+
+@media screen and (max-width: 362px) {
     .form__input-comments {
         width: 100%;
-
     }
 }

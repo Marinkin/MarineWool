@@ -6,28 +6,40 @@
     margin-bottom: 7px;
     white-space: pre-line;
 }
-@media screen and (max-width: 1000px){
+
+
+@media screen and (max-width: 1030px) {
+    .delivery__item {
+        width: 58%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
     .delivery__item {
         margin-left: 0;
     }
 }
-@media screen and (max-width: 900px){
+
+@media screen and (max-width: 900px) {
     .delivery__item {
         width: 85%;
         margin-right: 0;
     }
 }
-@media screen and (max-width: 750px){
+
+@media screen and (max-width: 750px) {
     .delivery__item {
         width: 80%;
     }
 }
-@media screen and (max-width: 640px){
+
+@media screen and (max-width: 640px) {
     .delivery__item {
         width: 60%;
     }
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
     .delivery__item {
         width: 80%;
     }

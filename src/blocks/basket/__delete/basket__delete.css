@@ -5,26 +5,18 @@
 
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
     .basket__delete {
         font-size: 20px;
         font-family: "Roboto", Arial, sans-serif;
         margin-bottom: 5%;
-
     }
 }
-@media screen and (max-width: 320px){
+
+@media screen and (max-width: 320px) {
     .basket__delete {
-margin: 0;
+        margin: 0;
     }
 }
 
-.basket__delete_mobile{
-    display: none;
-}
-@media screen and (max-width: 700px){
-    .basket__delete_mobile {
-      display: block;
 
-    }
-}

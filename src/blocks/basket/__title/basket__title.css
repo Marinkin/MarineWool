@@ -4,8 +4,10 @@
     font-weight: bold;
     margin-right: 28px;
 }
-@media screen and (max-width: 500px){
-    .basket__title  {
+
+@media screen and (max-width: 500px) {
+    .basket__title {
         margin: 0 0 5% 0;
+        text-align: center;
     }
 }

@@ -7,6 +7,9 @@
 @import url(__closed-icon/popup__closed-icon.css);
 @import url(__container-filter/popup__container-filter.css);
 @import url(__filter/popup__filter.css);
+@import url(__registration-enter/popup__registration-enter.css);
+@import url(__title-enter/popup__title-enter.css);
+@import url(__title-filter/popup__title-filter.css);
 
 .popup {
     width: 100%;
@@ -22,6 +25,7 @@
     transition: visibility .5s, opacity .5s linear;
     display: flex;
 }
+
 .popup_opened {
     visibility: visible;
     opacity: 1;

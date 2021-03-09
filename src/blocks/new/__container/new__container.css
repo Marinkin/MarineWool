@@ -1,5 +1,5 @@
 @import url(_card/new__container_card.css);
-@import url(_catalog/new__container_catalog.css);
+
 
 .new__container {
     display: flex;
@@ -8,12 +8,17 @@
     justify-content: flex-end;
 }
 
+@media screen and (max-width: 740px) {
+    .new__container {
+        width: 90%;
+    }
+}
 
-
-@media screen and (max-width: 420px){
+@media screen and (max-width: 600px) {
     .new__container {
         flex-direction: column;
         justify-content: center;
         padding-bottom: 17%;
+        width: 100%;
     }
 }

@@ -5,41 +5,37 @@
     padding: 13px 0 0 18px;
     font-family: "Roboto", Arial, sans-serif;
     border: none;
-    resize:none;
+    resize: none;
     box-sizing: border-box;
     background: #FFFFFF;
+    outline: none;
 }
 
-@media screen and (max-width: 1024px){
-    .form__input-textarea  {
+.form__input-textarea:focus {
+    outline: none;
+    border: 1px solid #BFE9F3;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .form__input-textarea {
         width: 385px;
         height: 50px;
-
     }
 }
-@media screen and (max-width: 800px){
-    .form__input-textarea  {
+
+@media screen and (max-width: 800px) {
+    .form__input-textarea {
         width: 285px;
-        height: 50px;
         font-size: 10px;
         padding: 13px 0 0 12px;
 
     }
 }
-@media screen and (max-width: 600px){
-    .form__input-textarea  {
-        width: 208px;
-        height: 30px;
-        font-size: 9px;
-        padding: 10px 0 0 12px;
 
-    }
-}
-@media screen and (max-width: 480px){
-    .form__input-textarea  {
+@media screen and (max-width: 480px) {
+    .form__input-textarea {
         width: 275px;
-        height: 50px;
         font-size: 15px;
-
     }
 }

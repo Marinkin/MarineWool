@@ -5,37 +5,50 @@
     font-size: 55px;
     line-height: 1.2;
     text-align: center;
-    flex-basis: 70%;
+    flex-basis: 72%;
 }
 
-@media screen and (max-width: 1024px){
+
+@media screen and (max-width: 1875px) {
     .new__title {
-        flex-basis: 62%;
+        flex-basis: 73%;
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1024px) {
     .new__title {
-        flex-basis: 46%;
+        flex-basis: 63%;
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px) {
     .new__title {
-        font-size: 35px;
-        flex-basis: 55%;
-        margin: 0 0 10px 0;
+        flex-basis: 52%;
     }
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 740px) {
     .new__title {
-      flex-basis: 254px;
+        flex-basis: 39%;
     }
 }
-@media screen and (max-width: 420px){
+
+
+@media screen and (max-width: 550px) {
+    .new__title {
+        flex-basis: 42%;
+        margin-bottom: 10%;
+        font-size: 55px;
+
+    }
+}
+
+@media screen and (max-width: 420px) {
     .new__title {
         flex-basis: 48px;
         font-size: 43px;
+        margin-bottom: 10%;
     }
 }
+
+

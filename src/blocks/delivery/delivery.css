@@ -3,51 +3,52 @@
 @import url(__item/delivery__item.css);
 @import url(__box/delivery__box.css);
 @import url(__price/delivery__price.css);
-@import url(__container-liner/delivery__container-liner.css);
 @import url(__container-payment/delivery__container-payment.css);
 
 .delivery {
     padding-bottom: 54px;
     padding-top: 52px;
-    background-image: url(../../images/border.svg);
+    background-image: url("../../images/border.svg");
     background-repeat: no-repeat;
     background-position: bottom;
 
 }
-@media screen and (max-width: 1150px){
+
+@media screen and (max-width: 1150px) {
     .delivery {
-        padding: 4% 2% 5% 4%;
+        padding: 0 2% 5% 4%;
         margin: 0;
     }
 }
-@media screen and (max-width: 950px){
+
+@media screen and (max-width: 950px) {
     .delivery {
         padding: 4% 2% 5% 2%;
-        margin: 0;
 
     }
 }
-@media screen and (max-width: 900px){
+
+@media screen and (max-width: 900px) {
     .delivery {
         padding: 4% 2% 5% 4%;
-        margin: 0;
-        /*width: 811px;*/
     }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 750px) {
     .delivery {
         margin: 0 0 0 7%;
     }
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
     .delivery {
         width: 100%;
         padding: 4% 2% 5% 9%;
         margin: 0;
     }
 }
-@media screen and (max-width: 480px){
+
+@media screen and (max-width: 480px) {
     .delivery {
         width: auto;
     }

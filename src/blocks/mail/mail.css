@@ -13,7 +13,7 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .mail {
         padding-bottom: 30px;
         padding-top: 0;
@@ -21,13 +21,14 @@
     }
 }
 
-@media screen and (max-width: 490px){
+@media screen and (max-width: 600px) {
     .mail {
         z-index: 10;
         position: relative;
         padding-top: 2%;
 
     }
+
     .mail:before {
         content: '';
         display: block;

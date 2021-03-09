@@ -7,7 +7,7 @@
     margin-bottom: 5px;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
     .basket__price {
         line-height: 31px;
         margin: 0;

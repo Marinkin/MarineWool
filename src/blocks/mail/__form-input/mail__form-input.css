@@ -4,18 +4,24 @@
     border-radius: 50px;
     border: none;
     width: 550px;
+    outline: none;
+    margin-top: 2.5%;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     .mail__form-input {
         width: 300px;
-
     }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     .mail__form-input {
         width: 185px;
+    }
+}
 
+@media screen and (max-width: 362px) {
+    .mail__form-input {
+        width: 180px;
     }
 }

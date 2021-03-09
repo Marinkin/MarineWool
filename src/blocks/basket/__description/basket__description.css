@@ -9,8 +9,18 @@
     line-height: 36px;
 }
 
-@media screen and (max-width: 700px){
+.basket__description:hover {
+    color: #339999;
+}
+
+@media screen and (max-width: 700px) {
     .basket__description {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .basket__description {
+        margin-left: 18%;
     }
 }

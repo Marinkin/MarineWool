@@ -12,27 +12,19 @@
     text-align: center;
     box-sizing: border-box;
     height: 35px;
-    padding: 10px 37px 10px 20px;
+    padding: 10px 12px 10px 20px;
     cursor: pointer;
 }
-.new__button:hover{
+
+.new__button:hover {
     background-color: #73497B;;
 }
 
-@media screen and (max-width: 600px){
-    .new__button {
-        font-size: 10px;
-        padding: 5px 20px 5px 9px;
-        line-height: 8px;
-        height: 20px;
-        font-weight: 400;
-    }
-}
-@media screen and (max-width: 420px){
+@media screen and (max-width: 600px) {
     .new__button {
         font-size: 14px;
         line-height: 17px;
-        padding: 10px 37px 10px 20px;
+        padding: 10px 20px 10px 20px;
         height: 35px;
         text-transform: uppercase;
         font-weight: 700;

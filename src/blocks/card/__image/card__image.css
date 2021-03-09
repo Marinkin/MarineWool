@@ -2,35 +2,43 @@
     width: 383px;
     margin: 0 0 0 16px;
 }
-@media screen and (max-width: 480px){
+
+@media screen and (max-width: 480px) {
     .card__image {
-       margin: 0;
+        margin: 0;
     }
 }
-@media screen and (max-width: 550px){
+
+@media screen and (max-width: 550px) {
     .card__image {
         width: 250px;
         margin: 0 0 0 16px;
     }
 }
-@media screen and (max-width: 520px){
+
+@media screen and (max-width: 520px) {
     .card__image {
         width: 470px;
         margin: 0;
     }
 }
-@media screen and (max-width: 480px){
+
+
+@media screen and (max-width: 490px) {
     .card__image {
-        width: 410px;
-        margin: 0;
+        width: 300px;
+        margin-left: 6%;
+    }
+}
+@media screen and (max-width: 362px) {
+    .card__image {
+        margin-left: 0;
     }
 }
 
-
-@media screen and (max-width: 420px){
+@media screen and (max-width: 320px) {
     .card__image {
-        width: 282px;
-
+        width: 265px;
+        margin-left: 6%;
     }
 }
-

@@ -1,4 +1,7 @@
 .form__order {
-    padding: 10px 0 10px;
-    font-family: "Roboto", Arial, sans-serif
+    padding: 10px 0 52px;
+    font-family: "Roboto", Arial, sans-serif;
+    background-image: url("../../../images/border.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
 }

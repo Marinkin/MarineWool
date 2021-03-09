@@ -2,8 +2,15 @@
     padding: 0 0 50px 0;
     margin: 0;
 }
-@media screen and (max-width: 600px){
-    .comments {
-        margin: 0 0 0 39%;
+
+@media screen and (max-width: 1024px) {
+    .order__title {
+        padding: 0 0 50px 8%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .order__title {
+        padding: 0 0 50px 12%;
     }
 }

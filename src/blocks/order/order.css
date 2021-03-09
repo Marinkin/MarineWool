@@ -18,57 +18,62 @@
 @import url(__confirm/order__confirm.css);
 @import url(__buttons/order__buttons.css);
 @import url(__box-item/order__box-item.css);
+@import url(__link-product/order__link-product.css);
+@import url(__execution-mobile/order__execution-mobile.css);
 
 
 .order {
-   padding-bottom: 52px;
     position: relative;
-    margin: 0 auto;
-    background-image: url(../../images/border.svg);
-    background-repeat: no-repeat;
-    background-position: bottom;
 
 }
-.ordering{
-    display: none;
-}
-@media screen and (max-width: 750px){
-    .ordering {
-        display: inherit;
-        width: 100%;
-        padding-top: 5%;
+
+@media screen and (max-width: 1024px) {
+    .order {
+        margin: 0;
     }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 900px) {
+    .order {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 770px) {
     .order {
         margin: 0 auto;
-        /*width: 811px;*/
     }
 }
-/*@media screen and (max-width: 900px){*/
-/*    .order {*/
-/*        width: 811px;*/
-/*    }*/
-/*}*/
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 600px) {
     .order {
-    margin: 0 auto;
+        width: 90%;
     }
 }
-@media screen and (max-width: 600px){
-    .order {
-     margin: 0 0 0 7%;
-    }
-}
-@media screen and (max-width: 500px){
-    .order {
-        margin: 0 0 0 1%;
-    }
-}
-@media screen and (max-width: 420px){
+
+@media screen and (max-width: 420px) {
     .order {
         margin: 0 0 0 13%;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .order {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 377px) {
+    .order {
+        margin: 0 0 0 5%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .order {
+        margin: 0;
+    }
+}
+
+
+

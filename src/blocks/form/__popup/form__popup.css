@@ -4,8 +4,17 @@
     font-family: "Roboto", Arial, sans-serif;
 }
 
+@media screen and (max-width: 521px) {
+    .form__popup {
+        overflow: auto;
+        height: 331px;
+        padding: 29px 45px 37px;
+    }
+}
+
 @media screen and (max-width: 420px) {
     .form__popup {
         padding: 10px 16px 10px;
+        height: 389px;
     }
 }

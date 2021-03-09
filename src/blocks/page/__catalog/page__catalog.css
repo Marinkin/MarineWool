@@ -6,7 +6,7 @@
     min-width: 320px;
     color: #59515A;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;                   
     background-image: url("../../../images/img-head-catalog.svg");
     background-repeat: no-repeat;
     background-size: contain;

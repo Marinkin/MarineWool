@@ -9,4 +9,12 @@
     align-self: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: 18px;
 }
+
+@media screen and (max-width: 362px){
+    .icon__img {
+       margin-left: 0;
+    }
+}
+    

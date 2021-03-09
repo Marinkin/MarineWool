@@ -6,14 +6,8 @@
 @import url(__products-container/catalog__products-container.css);
 
 
-
-.catalog {
-    padding-top: 5%;
-
-}
-@media screen and (max-width: 420px){
+@media screen and (max-width: 420px) {
     .catalog {
-      margin: 0 auto;
-        width: 244px;
+        margin: 0 auto;
     }
 }

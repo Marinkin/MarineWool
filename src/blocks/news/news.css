@@ -10,32 +10,35 @@
 .news {
     margin: 0 auto;
     font-family: "Roboto", Arial, sans-serif;
-    max-width: 1170px;
+    max-width: 1136px;
 }
 
-@media screen and (max-width: 1024px){
-    .news {
-        width: 830px;
 
-    }
-}
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1030px) {
     .news {
-        width: 640px;
+        width: 92%;
     }
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 560px) {
     .news {
-        width: 440px;
-        padding-top: 20px;
+        width: 381px;
     }
 }
-@media screen and (max-width: 490px){
+
+@media screen and (max-width: 490px) {
     .news {
         width: 440px;
     }
 }
-@media screen and (max-width: 420px){
+
+@media screen and (max-width: 440px) {
+    .news {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 420px) {
     .news {
         width: 297px;
     }

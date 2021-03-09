@@ -2,14 +2,11 @@
     width: 119px;
     margin-right: 3px;
     border-radius: 10px;
+    text-decoration: none;
 }
-@media screen and (max-width: 640px){
+
+@media screen and (max-width: 640px) {
     .card__img-small {
-        width: 29%;
-    }
-}
-@media screen and (max-width: 600px){
-    .card__img-small {
-        width: 25%;
+        width: 28%;
     }
 }

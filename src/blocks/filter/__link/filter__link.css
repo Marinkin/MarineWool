@@ -4,12 +4,12 @@
     color: #59515A;
     text-decoration: none;
 }
-.filter__link:hover{
-    color: #339999;
 
+.filter__link:hover {
+    color: #339999;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
     .filter__link {
         white-space: pre-line;
     }

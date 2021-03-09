@@ -1,8 +1,6 @@
 .basket__image {
     background-size: contain;
     margin: 0;
-    /*width: 119px;*/
-    /*height: 119px;*/
     box-sizing: border-box;
     overflow: hidden;
     object-fit: cover;

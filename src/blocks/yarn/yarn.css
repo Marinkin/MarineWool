@@ -1,4 +1,6 @@
 @import url(__container/yarn__container.css);
+@import url(__container-catalog/yarn__container-catalog.css);
+@import url(__img-container/yarn__img-container.css);
 @import url(__img/yarn__img.css);
 @import url(__title/yarn__title.css);
 @import url(__ellipse/yarn__ellipse.css);
@@ -6,24 +8,26 @@
 @import url(__titles/yarn__titles.css);
 @import url(_instagram/yarn_instagram.css);
 @import url(__price_card/yarn__price_card.css);
+@import url(__img-instagram/yarn__img-instagram.css);
+@import url(__box/yarn__box.css);
 
 .yarn {
     display: flex;
     flex-wrap: wrap;
     font-family: "Roboto", Arial, sans-serif;
-    margin: 0 0 0 17px;
 }
-@media screen and (max-width: 900px){
-    .yarn {
-        /*justify-content: center;*/
-        margin: 0 0 0 5px;
 
+
+@media screen and (max-width: 740px){
+    .yarn {
+         justify-content: center;
     }
 }
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 420px){
     .yarn {
-        justify-content: center;
-
-
+		justify-content: center;
+        margin: 0;
     }
 }
+
